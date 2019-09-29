@@ -1,0 +1,12 @@
+eureka:
+  server:
+    enable-self-preservation: false
+env: dev
+spring:
+  application:
+    name: Order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    password:
